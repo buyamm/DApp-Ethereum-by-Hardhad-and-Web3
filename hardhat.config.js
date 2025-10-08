@@ -15,4 +15,10 @@ module.exports = {
       chainId: 1337,
     },
   },
+  paths: {
+    sources: "./contracts",
+    tests: "./test",
+    cache: "./cache",
+    artifacts: "./artifacts"
+  }
 };
